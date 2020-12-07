@@ -10,6 +10,10 @@ RUN apk add --no-cache --upgrade bash python py-pip
 RUN apk add --update --no-cache make=4.2.1-r2
 
 # Add PanDoc dependencies
+<<<<<<< HEAD
+=======
+RUN pip install --upgrade pip
+>>>>>>> template/main
 RUN pip install --upgrade pandocfilters
 
 # Set working directory to the name of a Docker Volume
