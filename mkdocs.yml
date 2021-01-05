@@ -34,7 +34,18 @@ copyright: >-
 
 # Navigation structure
 nav:
-  - overview: "index.md"
+  - Overview: "index.md"
+  - Foreword: "forword.md"
+   1. Scope: "scope.md"
+   2. References: "references.md"
+   3. Definitions: "definitions.md"
+   4. Layer 2-3 description: "description.md"
+   5. Layer 2-3 specification: "specification/specification.md"
+  - Annex A Normative transactions: "annex/annex_a.md"
+  - Annex B Implementation considerations: "annex/annex_b.md"
+  - Annex C Specified protocols: "annex/annex_c.md"
+  - Annex D Reference model: "annex/annex_d.md"
+  - Annex E Cryptogrpahy: "annex/annex_e.md"
 
 
 # Theme configuration
