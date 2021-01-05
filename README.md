@@ -3,10 +3,10 @@
 
 - Authors: [Dave McKay](dave@northernblock.ca) 
 - Status: [PROPOSED](https://trustoverip.github.io/deliverables/process/lifecycle_management/#proposed)
-- Since: YYYY-MM-DD (date you submit your PR)
-- Status Note: (explanation of current status)  
-- Supersedes: (link to anything this ToIP Deliverable  supersedes)
-- Start Date: YYYY-MM-DD (date you started working on this idea)
+- Since: 2021-01-06 
+- Status Note: Initial structure  
+- Supersedes: 
+- Start Date: 2020-12-01
 - Tags: #tswg, #specification
 
 ## Summary
