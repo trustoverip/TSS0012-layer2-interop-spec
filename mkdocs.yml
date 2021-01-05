@@ -11,6 +11,7 @@
 # LIMITATIONS UNDER THE LICENSE.
 
 # Project information
+
 site_name: TSWG Layer 2 Interop Spec 
 site_url: https://trustoverip.github.io/mkdocs-material/
 site_author: Trust over IP Foundation
@@ -65,9 +66,6 @@ theme:
 # Plugin configuration
 plugins:
   - search
-  - enumerate-headings:
-      strict: true
-      toc_depth: 3
 
 # Extensions configuration
 markdown_extensions:
@@ -78,7 +76,7 @@ markdown_extensions:
   - footnotes
   - meta
   - toc:
-      permalink: "§"
+      permalink: true
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -127,7 +125,6 @@ extra:
 # Additional stylesheets
 extra_css:
   - theme/stylesheets/main.css
-  - theme/stylesheets/spec.css
 
 # Additional JavaScript
 extra_javascript:
