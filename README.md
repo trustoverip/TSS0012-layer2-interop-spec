@@ -1,4 +1,4 @@
-# ToIP  TSS0012: Layer 2 Interop Spec
+# ToIP  TSS0012: Layer 2 Interop Spec 
 
 
 - Authors: [Dave McKay](dave@northernblock.ca) 

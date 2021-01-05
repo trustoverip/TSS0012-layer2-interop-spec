@@ -36,7 +36,7 @@
 # -----------------------------------------------------------------------------
 
 # Repo Instance Specific
-REPO_NAME ?= TSS0012-layer2-interop-spec
+REPO_NAME ?= TSS0012-layer2-interop-spec 
 UPSTREAM_REPO ?= https://github.com/trustoverip/TSS0012-layer2-interop-spec.git
 DEV_SITE_PORT ?= 7512
 
