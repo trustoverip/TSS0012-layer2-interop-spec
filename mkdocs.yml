@@ -11,16 +11,16 @@
 # LIMITATIONS UNDER THE LICENSE.
 
 # Project information
-site_name: Trust over IP – General Template
+
+site_name: TSWG Layer 2 Interop Spec 
 site_url: https://trustoverip.github.io/mkdocs-material/
 site_author: Trust over IP Foundation
 site_description: >-
-  Trust over IP Foundation template for general documentation
-  and technical specification using Material for MkDocs
+  Technology Stack Layer 2 Interoperability Specification
 
 # Repository information
-repo_name: trustoverip/mkdocs-material
-repo_url: https://github.com/trustoverip/mkdocs-material
+repo_name: trustoverip/TSS0012-layer2-interop-spec
+repo_url: https://github.com/trustoverip/TSS0012-layer2-interop-spec
 
 # Content Generator Settings
 docs_dir: 'docs'
@@ -34,9 +34,21 @@ copyright: >-
   Projects, LLC is an affiliate of the Linux Foundation.
 
 # Navigation structure
-# nav:
-#  - Page 1: page-1.md
-#  - Page 2: page-2.md
+nav:
+    - Foreword: 'foreword.md'
+    - Scope: 'scope.md'
+    - References: 'references.md'
+    - Definitions: 'definitions.md'
+    - Layer 2-3 description: 'description.md'
+    - 'Layer 2-3 specification':
+        - Specification: 'specification/specification.md'
+    - 'Annexes':
+        - Annex A Normative transactions: 'annex/annex_a.md'
+        - Annex B Implementation considerations: 'annex/annex_b.md'
+        - Annex C Specified protocols: 'annex/annex_c.md'
+        - Annex D Reference model: 'annex/annex_d.md'
+        - Annex E Cryptogrpahy: 'annex/annex_e.md'
+
 
 # Theme configuration
 theme:
@@ -98,9 +110,10 @@ markdown_extensions:
 
 # Additional content
 extra:
-  title: 'XX0000: Deliverable Name'
+  title: 'TSS012: Layer2 Interop Spec'
   lf_url: https://www.linuxfoundation.org/projects
   toip_url: https://trustoverip.org/
+  toc_title: Table of contents
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/trustoverip
